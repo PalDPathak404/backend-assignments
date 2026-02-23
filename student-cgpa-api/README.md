@@ -1,10 +1,10 @@
 # Student CGPA API
 
 **Deployed API (Render):**  
-https://student-cgpa-api.onrender.com  
+https://backend-assignments-tpe5.onrender.com  
 
 **Postman Documentation:**  
-https://documenter.getpostman.com/view/xxxxxx  
+https://documenter.getpostman.com/view/50839228/2sBXcGCeE9  
 
 ---
 
@@ -68,7 +68,7 @@ The API strictly follows REST design principles and returns structured JSON resp
 ### Static Routes
 
 **1. GET /students** 
- 
+
 Returns the complete list of students.  
 **Status:** 200 OK
 
