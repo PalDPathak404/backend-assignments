@@ -20,7 +20,7 @@ This project was developed strictly according to the assignment requirements:
 - Returns appropriate HTTP status codes
 - Does not use any external database
 
-All student data is stored within the application as a JSON array.
+All student data is stored within the application as a JSON array.~
 
 ---
 
