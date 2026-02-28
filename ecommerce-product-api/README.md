@@ -281,10 +281,21 @@ curl -X PUT http://localhost:3000/products/1 \
   }'
 ```
 
-## License
+## Learning Outcomes
 
-ISC
+After working through this API project, you will have gained understanding of:
 
-## Author
+- Building RESTful APIs using Express.js framework
+- Implementing complete CRUD operations for inventory management
+- Creating filtered endpoints for category-based product retrieval
+- Structuring HTTP requests and error responses with proper status codes
+- Handling JSON data in API communication
+- Applying middleware for CORS and request parsing
+- Implementing route parameters and filtering logic
+- Data persistence patterns in in-memory storage
+- API error handling and validation strategies
+- Designing scalable API endpoint structures
+- API documentation and Postman integration practices
+- Testing API endpoints with cURL commands
+- Building real-world e-commerce backend functionality
 
-Backend Assignments Team
