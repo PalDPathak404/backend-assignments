@@ -20,6 +20,20 @@ app.get("/states", function(req, res) {
   res.status(200).json(states);
 });
 
+
+app.get("/states/highest-gdp", function(req, res) {
+
+  let highest = states[0];
+
+  for (let i = 1; i < states.length; i++) {
+    if (states[i].gdp > highest.gdp) {
+      highest = states[i];
+    }
+  }
+
+  res.status(200).json(highest);
+});
+
 app.get("/states/:id", function(req, res) {
 
   let id = parseInt(req.params.id);
@@ -39,18 +53,6 @@ app.get("/states/:id", function(req, res) {
   }
 });
 
-app.get("/states/highest-gdp", function(req, res) {
-
-  let highest = states[0];
-
-  for (let i = 1; i < states.length; i++) {
-    if (states[i].gdp > highest.gdp) {
-      highest = states[i];
-    }
-  }
-
-  res.status(200).json(highest);
-});
 
 app.post("/states", function(req, res) {
 
