@@ -246,10 +246,18 @@ curl -X PUT http://localhost:3000/states/1 \
   }'
 ```
 
-## License
+## Learning Outcomes
 
-ISC
+After working through this API project, you will have gained understanding of:
 
-## Author
-
-Backend Assignments Team
+- Building RESTful APIs using Express.js framework
+- Implementing CRUD operations for resource management
+- Structuring HTTP requests and responses with proper status codes
+- Working with JSON data formats in API communication
+- Using middleware in Express applications (CORS, body parsing)
+- Implementing route parameters and query handling
+- Data validation and error handling in API endpoints
+- CORS configuration and cross-origin resource sharing
+- API documentation best practices
+- Testing APIs using cURL and other HTTP clients
+- Organizing and structuring Node.js server applications
